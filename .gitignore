@@ -1,0 +1,20 @@
+# Loại bỏ các thư mục hệ thống
+AppData/
+Application Data/
+Cookies/
+Desktop.ini
+Downloads/
+Favorites/
+Links/
+NTUSER.DAT*
+OneDrive/
+Recent/
+Saved Games/
+Searches/
+SendTo/
+Start Menu/
+Tracing/
+Videos/
+ntuser.dat.*
+.vscode/
+.cache/

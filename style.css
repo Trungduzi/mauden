@@ -1,0 +1,126 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: gray;
+    text-transform: uppercase;
+}
+
+.none__decoration{  
+    display: block;
+    padding: 20px 0px 20px 25px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.none__decoration:hover{
+    color: blue;
+}
+
+.none__decoration1{
+    color: black;
+    text-decoration-line: none;
+}
+
+#header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: #71be34;
+}
+/*header__item*/
+
+.header__item{
+    transition: background-color 0.6s ease;
+}
+
+.header__item:hover{
+    color: rgb(253, 8, 8);  
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header__item:hover .box__item{
+    display: block;
+}   
+
+/* header__item__main */
+.header__item__main{
+    display: inline-block;
+    padding: 28.5px 20px;
+}
+
+.header__item__main:hover{
+    display: inline-block;
+    cursor: default;
+}
+
+.none__decoration1:hover{
+    color: white;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+/* box__item */
+.box__item{
+    width: 250px;
+    position: absolute;
+    border-radius: 3px;
+    display: none;  
+    background-color: rgb(255, 255, 255);
+}
+
+/* header__item__main */
+.header__item__inmain{
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.header__item__inmain:hover{
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#header__icon{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    height: 1100px;
+    background-image: url("https://noithatngahung.com/wp-content/uploads/2021/03/nh%E1%BB%8F-xinh-3271x2181.jpg");
+    background-size: cover;
+}
+
+#content{
+    position: absolute;
+    width: 450px;
+    height: 600px;
+    background-color: #71be34;
+    top: 1175px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login__display{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.login__input{
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+    font-size: 22px;
+}
+.demo{
+    font-size: 24px;
+}
+.success{
+    border-radius: 10px;
+    height: 30px;
+    margin: 100px;
+    background-color: #71be34;
+}
