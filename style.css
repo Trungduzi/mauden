@@ -7,7 +7,7 @@ html{
 .none__decoration{  
     display: block;
     padding: 20px 0px 20px 25px;
-    color: black;
+    color: rgb(22, 18, 18);
     text-decoration-line: none;
 }
 
